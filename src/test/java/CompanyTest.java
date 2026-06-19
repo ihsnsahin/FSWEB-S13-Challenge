@@ -98,7 +98,6 @@ public class CompanyTest {
         employee.addHealthPlan(1, "Test Sigorta");
         assertEquals(Arrays.asList(employee.getHealthPlans()).contains("Test Sigorta"), true);
     }
-
     @DisplayName("Company sınıf değişkenleri doğru access modifier a sahip mi ?")
     @Test
     public void testCompanyAccessModifiers() throws NoSuchFieldException {
